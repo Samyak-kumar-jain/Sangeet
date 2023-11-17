@@ -3,6 +3,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     background: #ffffff;
+    height: 100%;
 }
 
 nav {
@@ -72,6 +73,7 @@ body {
     padding: 0;
     background: #0c0c0c;
     color: #ffffff;
+    height: 100%;
     /* height: 100vh; */
 }
 
@@ -158,7 +160,7 @@ footer {
     margin-left: 20px;
     margin-right: 30px;
     padding-left: 3vw;
-    margin-top: 50px;
+    margin-top: 7vw;
     gap: 3vw;
    
  
@@ -174,24 +176,26 @@ footer {
     height: 30vw;
     margin-top: 4vw;
     margin-left: 5vw;
+    display: flex;
+    justify-content: center;
 }
 .pos{
     display:flex;
 }
 .pos img{
     height: 17vw;
-    margin-top: 80px;
+    margin-top: 6vw;
 }
 .im{
     height:34vw;
-    margin-top: 0px;
-    margin-left: 7px;
+    margin-top: 0vw;
+    margin-left: 1vw;
 }
 .fling{
     display: flex;
     height: 25.5vw;
     margin-left: 6px;
-    margin-top: 101px;
+    margin-top: 7vw;
 
 }
 .name{
